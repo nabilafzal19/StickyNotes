@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+body{
+  margin:0;
+  padding:0;
+}
+.app{
+  padding:50px;
+  height: 100vh;
+
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+  color:black;
+ 
+}
+.note-form textarea{
+  display:block;
+  height: 20vh;
+border-style:none;
+overflow:hidden;
+background-color: rgb(241, 241, 136);
+
+}
+.note-form button{
+ width: 169px;
+ border-style:none;
+ height:5vh;
+ 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+.note{
+  position: absolute;
+  cursor: pointer;
 
-.App-link {
-  color: #61dafb;
-}
+ background-color: rgba(255, 255, 95, 0.836);
+  top:100px;
+  left:300px;
+  height: 160px;
+  width: 100px;
+  padding: 0 20px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  
+
+}
+/* thoda pre pe work krna hai */
+.text{
+  position:absolute; 
+  margin-top: 0;
+  /* overflow-y: scroll; */
+  /* white-space: pre-wrap;
+  overflow-y:scroll; */
 }
